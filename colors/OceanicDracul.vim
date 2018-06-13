@@ -36,8 +36,8 @@ hi Cursor        guifg=#141e23  guibg=c0c5ce  ctermfg=00    ctermbg=152
 hi NonText       guifg=#65737e  guibg=NONE    ctermfg=59    ctermbg=NONE
 hi Normal        guifg=#c0c5ce  guibg=141e23  ctermfg=152   ctermbg=282a36
 hi LineNr        guifg=#65737e  guibg=343d46  ctermfg=10    ctermbg=NONE
-hi CursorLineNR  guifg=#ffffff  guibg=ffffff  ctermfg=15    ctermbg=15
-hi SignColumn    guifg=#65737e  guibg=343d46  ctermfg=59    ctermbg=238
+hi CursorLineNr  guifg=#65737e  guibg=343d46  ctermfg=10    ctermbg=NONE
+hi SignColumn    guifg=#65737e  guibg=343d46  ctermfg=10    ctermbg=NONE
 hi SpecialKey    guifg=#65737e  guibg=NONE    ctermfg=59    ctermbg=NONE
 hi StatusLine    ctermfg=231 ctermbg=236 cterm=bold guifg=#f8f8f2 guibg=#64666d gui=BOLD
 hi StatusLineNC  ctermfg=231 ctermbg=236 cterm=NONE guifg=#f8f8f2 guibg=#64666d gui=NONE
@@ -45,7 +45,6 @@ hi VertSplit     guifg=#4f5b66  guibg=4f5b66  ctermfg=239   ctermbg=239   gui=NO
 hi ColorColumn   guifg=#NONE    guibg=343d46  ctermfg=NONE  ctermbg=238   gui=NONE  cterm=NONE
 hi CursorColumn  guifg=#NONE    guibg=343d46  ctermfg=NONE  ctermbg=238   gui=NONE  cterm=NONE
 hi CursorLine    guifg=#NONE    guibg=343d46  ctermfg=NONE  ctermbg=238   gui=NONE  cterm=NONE
-hi CursorLineNr  guifg=#65737e  guibg=343d46  ctermfg=59    ctermbg=238
 hi PMenu         guifg=#a7adba  guibg=343d46  ctermfg=145   ctermbg=238   gui=NONE  cterm=NONE
 hi PMenuSel      guifg=#343d46  guibg=a7adba  ctermfg=238   ctermbg=145
 hi TabLine       guifg=#65737e  guibg=343d46  ctermfg=59    ctermbg=238   gui=NONE cterm=NONE
@@ -137,9 +136,6 @@ hi sassClassChar              guifg=#f99157  ctermfg=209
 hi sassInclude                guifg=#c594c5  ctermfg=176
 hi sassMixing                 guifg=#c594c5  ctermfg=176
 hi sassMixinName              guifg=#6699cc  ctermfg=68
-hi SignifySignAdd             guifg=#99c794  guibg=#343d46  ctermfg=114  ctermbg=238
-hi SignifySignChange          guifg=#6699cc  guibg=#343d46  ctermfg=68   ctermbg=238
-hi SignifySignDelete          guifg=#ec5f67  guibg=#343d46  ctermfg=203  ctermbg=238
 hi SpellBad                   guibg=#141e23  ctermbg=00  cterm=UNDERCURL  gui=UNDERCURL
 hi SpellLocal                 guibg=#141e23  ctermbg=00  cterm=UNDERCURL  gui=UNDERCURL
 hi SpellCap                   guibg=#141e23  ctermbg=00  cterm=UNDERCURL  gui=UNDERCURL
